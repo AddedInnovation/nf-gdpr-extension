@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Added.netFORUM.GDPR.Extension", "Added.netFORUM.GDPR.Extension\Added.netFORUM.GDPR.Extension.csproj", "{B4BE4CE1-1392-493E-9E40-CFB20195E282}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{F63905DD-A6F2-4ABA-816C-6FE30C806BAD}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\common.dll = Dependencies\common.dll
+		Dependencies\Components.dll = Dependencies\Components.dll
+		Dependencies\controls.dll = Dependencies\controls.dll
+		Dependencies\data.dll = Dependencies\data.dll
+		Dependencies\extension.dll = Dependencies\extension.dll
+		Dependencies\extension.XmlSerializers.dll = Dependencies\extension.XmlSerializers.dll
+		Dependencies\messaging.dll = Dependencies\messaging.dll
+		Dependencies\monitor.dll = Dependencies\monitor.dll
+		Dependencies\Utility.dll = Dependencies\Utility.dll
+		Dependencies\Workflow.dll = Dependencies\Workflow.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4BE4CE1-1392-493E-9E40-CFB20195E282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BE4CE1-1392-493E-9E40-CFB20195E282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BE4CE1-1392-493E-9E40-CFB20195E282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BE4CE1-1392-493E-9E40-CFB20195E282}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C67FA1F9-0AA6-4BB3-9000-7A2293DB36D6}
+	EndGlobalSection
+EndGlobal
