@@ -221,7 +221,7 @@ namespace Added.netFORUM.GDPR.Extension
 
         protected virtual string GetChildFormSql()
         {
-            return "SELECT dyc_key, dyc_description, dyc_grid_title, dyc_sql FROM md_dynamic_form_child WITH (NOLOCK) WHERE dyc_dyn_key = @dyn_key AND dyc_delete_flag = 0";
+            return "SELECT dyc_key, dyc_description, dyc_grid_title, dyc_sql FROM md_dynamic_form WITH (NOLOCK) JOIN md_dynamic_profile_detail WITH (NOLOCK) ON dyn_key = dpd_dyn_key JOIN md_dynamic_form_child WITH (NOLOCK) ON dpd_dyc_key = dyc_key WHERE dyn_key = 'EE5C039E-CF0F-4D0E-BA8A-84F9D1C6A986' AND dyn_delete_flag = 0 AND dpd_delete_flag = 0 AND dyc_delete_flag = 0 ORDER BY CAST(COALESCE(dpd_row,0) AS Int), dpd_key";
         }
         public virtual void WriteFileToResponse(XDocument dataExport, HttpResponse response, string filename)
         {
