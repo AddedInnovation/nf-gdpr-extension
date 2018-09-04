@@ -35,3 +35,4 @@ A quick script for JSON:
 --Export to JSON:
 UPDATE [dbo].[md_dynamic_form_extension] SET [dyx_object_initialize_parameters] = N'Page:Page;Control:Control;String:json' WHERE dyx_key = '4aa823a2-dbcf-4212-bac9-4fb32b3aea87'
 ```
+**Note: Make sure you clear cache after updating from JSON to XML or vice-versa. This may not be required for your installation**
