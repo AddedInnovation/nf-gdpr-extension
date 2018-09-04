@@ -19,6 +19,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencie
 		Dependencies\Workflow.dll = Dependencies\Workflow.dll
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installation Scripts", "Installation Scripts", "{F3ADB13A-8F4A-4E08-AF02-095509012CBD}"
+	ProjectSection(SolutionItems) = preProject
+		Installation Scripts\01_Install_GDPR_Form_And_Extensions_MD.sql = Installation Scripts\01_Install_GDPR_Form_And_Extensions_MD.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "undo", "undo", "{3084CD37-7BF7-4F81-9A49-8450D5DDD506}"
+	ProjectSection(SolutionItems) = preProject
+		Installation Scripts\undo\01_Install_GDPR_Form_And_Extensions_UNDOMD.sql = Installation Scripts\undo\01_Install_GDPR_Form_And_Extensions_UNDOMD.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +42,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3084CD37-7BF7-4F81-9A49-8450D5DDD506} = {F3ADB13A-8F4A-4E08-AF02-095509012CBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C67FA1F9-0AA6-4BB3-9000-7A2293DB36D6}
