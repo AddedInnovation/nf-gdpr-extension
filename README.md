@@ -4,7 +4,7 @@ Added Innovation GDPR Extension to export all GDPR data in one click to JSON or 
 Adds a button to the Individual "Data for GDPR Profile" form called "export gdpr data". When you click on the button, all of the data configured in the childforms below will be exported as JSON.
 
 ## Install netFORUM Metadata
-1. Execute *_MD.sql SQL Script in [Installation Scripts](/Source/Installation%20Scripts). **Important: Do not run the scripts in the undo folder unless you are uninstalling extension**
+1. Execute *_MD.sql SQL Script in [Installation Scripts](/Source/Installation%20Scripts) in consecutive order. **Important: Do not run the scripts in the undo folder unless you are uninstalling extension**
 
 ## Install netFORUM Code
 ### Option 1: Download Compiled Release
