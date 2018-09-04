@@ -83,7 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChildForm.cs" />
-    <Compile Include="ExportChildformData.cs" />
+    <Compile Include="ExportChildformDataExtension.cs" />
     <Compile Include="ExportMode.cs" />
     <Compile Include="ExportService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
