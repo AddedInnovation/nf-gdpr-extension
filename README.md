@@ -11,7 +11,7 @@ This form is accessible by navigating to any **Individual in iWeb**, Clicking on
 ## Install netFORUM Code
 ### Option 1: Download Compiled Release
 1. Download [Latest Release](https://github.com/AddedInnovation/nf-gdpr-extension/releases)
-1. Copy contents of release to iWeb folder
+1. Copy contents of release\bin to iWeb folder
 
 ### Option 2: Clone Repo and Compile Yourself
 1. Download or Clone Repo
